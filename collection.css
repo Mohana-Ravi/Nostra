@@ -1,0 +1,35 @@
+.collection-container{
+    display: flex;
+}
+.container-1{
+    margin-left: 2%;
+    margin-top: 3%;
+    border-right: 2px solid black;
+}
+.collection-menu1{
+    padding: 4px;
+    font-size: 2vw;
+}
+.collection-menu2{
+    padding: 4px;
+    font-size: 2vw;
+    margin-top: 2%;
+
+}
+.collection-menu3{
+    padding: 4px;
+    font-size: 2vw;
+    margin-top: 2%;
+
+}
+.collection-image{
+    display: flex;
+}
+
+
+
+
+
+
+
+

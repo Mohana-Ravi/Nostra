@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#offer{
+    display: flex; 
+    background-color: #2b2d42;  
+    color: white; 
+    justify-content: center;
+     padding: 3px;
+}
+#navbar{
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 3%; 
+    margin-right: 3%;
+     margin-top: 1%;
+}
+#menu{
+    justify-content: space-around;
+     gap: 20px; font-size: larger; 
+     cursor: pointer;
+}
+#menu p:hover{
+    text-decoration: underline;
+}
+
+.slider{
+    width: 100%;
+    height: 450px;
+    margin-top: 2%;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slider-image,
+.hidden
+{
+    display: none;
+}
+.active{
+    display: block;
+}
+.slider-btn{
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.slider-btn button{
+    font-size: 10vh;
+    color: white;
+   
+}
+.brands{
+    display: flex;
+
+}
+.brand-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-align: center;
+    padding: 15px;
+}
+.service{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.containerservice2{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+.service2-item{
+   
+    width: 20%;
+    margin-top: 2%;
+    background-color: lightgray;
+    border-radius: 5%;
+    
+    
+}
+.new-arraival{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.arraival-container{
+    position: relative;
+}
+.arrivalimage{
+    margin-top: 2%;
+    margin-left: 4%;
+    background-color:black;
+    border-radius: 5%;
+    opacity: 0.5;
+   
+    
+    
+
+}
+.arrivalbtn{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: whitesmoke;
+   color: black;
+   border-radius: 10px;
+   padding: 1%;
+   position: absolute;
+   top: 70%;
+   left: 30%;
+   z-index: 2;
+
+}
+.mostwanted{
+    position: relative;
+    margin-left: 3%;
+    margin-top: 3%;
+    display: flex;
+   justify-content: space-around;
+}
+.wanted-sale{
+    background-color: red;
+    color: white;
+    border: 1px;
+    width: 5%;
+    text-align: center;
+    position: absolute;
+    top: 3px;
+}
+.heart-icon{
+    position: absolute;
+    bottom: 3px;
+    margin-left: 19%;
+    color: black;
+}
+.limited-off{
+    margin-top: 4%;
+    display: flex;
+    background-color: #1D232C;
+    justify-content: center;
+    align-items: center;
+    color: #E2E1E1;
+    padding: 25px;
+    font-size: 2vw;
+}
+.off-btn{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: whitesmoke;
+   color: black;
+   border-radius: 10px;
+   padding: 1%;
+   font-size: 1.5vw;
+}
+.news{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+}
+.search{
+    border: 2px solid black;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.news-btn{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: #1D232C;
+   color: white;
+   border-radius: 10px;
+   padding: 3px;
+   font-size: 1.5vw;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1D232C;
+    color: white;
+    padding: 5px;
+    margin-top: 5%;
+    
+}
+.foot-container{
+    margin-left: 4%;
+    padding: 5px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.foot-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
